@@ -1,0 +1,580 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.25)  19 NOV 2020 22:29
+entering extended mode
+**./Tesis.tex
+(Tesis.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-07-17>
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@chapter=\count169
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@subparagraph=\count174
+\c@figure=\count175
+\c@table=\count176
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count177
+\Gm@cntv=\count178
+\c@Gm@tempcnt=\count179
+\Gm@bindingoffset=\dimen137
+\Gm@wd@mp=\dimen138
+\Gm@odd@mp=\dimen139
+\Gm@even@mp=\dimen140
+\Gm@layoutwidth=\dimen141
+\Gm@layoutheight=\dimen142
+\Gm@layouthoffset=\dimen143
+\Gm@layoutvoffset=\dimen144
+\Gm@dimlist=\toks18
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+("C:\Program Files\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+("C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.sty"
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2020-07-17 L3 programming layer (loader) 
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+mode.def
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count180
+\l__pdf_internal_box=\box45
+))
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e-generic.tex
+\l__xparse_current_arg_int=\count181
+\g__xparse_grabber_int=\count182
+\l__xparse_m_args_int=\count183
+\l__xparse_v_nesting_int=\count184
+))
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+ ("C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex"
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen145
+))
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen146
+)
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count185
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count186
+\leftroot@=\count187
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count188
+\DOTSCASE@=\count189
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box46
+\strutbox@=\box47
+\big@size=\dimen147
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count190
+\c@MaxMatrixCols=\count191
+\dotsspace@=\muskip16
+\c@parentequation=\count192
+\dspbrk@lvl=\count193
+\tag@help=\toks20
+\row@=\count194
+\column@=\count195
+\maxfields@=\count196
+\andhelp@=\toks21
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks22
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+("C:\Program Files\MiKTeX\tex/latex/cancel\cancel.sty"
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+("C:\Program Files\MiKTeX\tex/latex/physics\physics.sty"
+Package: physics 
+) (Tesis.aux
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+)
+\openout1 = `Tesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count197
+\scratchdimen=\dimen154
+\scratchbox=\box48
+\nofMPsegments=\count198
+\nofMParguments=\count199
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count266
+\MPscratchDim=\dimen155
+\MPnumerator=\count267
+\makeMPintoPDFobject=\count268
+\everyMPtoPDFconversion=\toks25
+)
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 17.07164pt
+* modes: twoside 
+* h-part:(L,W,R)=(61.45795pt, 426.79134pt, 92.18695pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79134pt
+* \textheight=702.78308pt
+* \oddsidemargin=6.2596pt
+* \evensidemargin=19.91696pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=95.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<images/logo.png.png, id=1, 100.375pt x 138.5175pt>
+File: images/logo.png.png Graphic file (type png)
+<use images/logo.png.png>
+Package pdftex.def Info: images/logo.png.png  used on input line 23.
+(pdftex.def)             Requested size: 100.37474pt x 138.51715pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 23
+.
+
+(C:\Users\johnf\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+) [1
+
+{C:/Users/johnf/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./images/logo.p
+ng.png>] (Tesis.toc)
+\tf@toc=\write3
+\openout3 = `Tesis.toc'.
+
+ [2
+
+] [1]
+Chapter 1.
+(chapters/chapter1.tex
+
+LaTeX Warning: Citation `doi:10.1021/acs.chemrev.6b00453' on page 2 undefined o
+n input line 10.
+
+
+LaTeX Warning: Citation `article' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `Gruson734' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `article2' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `Schultze1658' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `cavalieri2007attosecond' on page 2 undefined on input 
+line 10.
+
+
+LaTeX Warning: Citation `RevModPhys.81.163' on page 2 undefined on input line 1
+0.
+
+
+LaTeX Warning: Citation `article3' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `thesisalejo' on page 2 undefined on input line 10.
+
+[2
+
+]
+
+LaTeX Warning: Citation `richter1993intra' on page 3 undefined on input line 12
+.
+
+
+LaTeX Warning: Citation `doi:10.1080/14786441308634955' on page 3 undefined on 
+input line 12.
+
+
+LaTeX Warning: Citation `einstein1917quantensatz' on page 3 undefined on input 
+line 12.
+
+
+LaTeX Warning: Citation `doi:10.1080/14786441308634993' on page 3 undefined on 
+input line 12.
+
+
+LaTeX Warning: Citation `RevModPhys.72.497' on page 3 undefined on input line 1
+2.
+
+
+LaTeX Warning: Citation `gutzwiller1967phase' on page 3 undefined on input line
+ 12.
+
+
+LaTeX Warning: Citation `gutzwiller1971periodic' on page 3 undefined on input l
+ine 12.
+
+
+LaTeX Warning: Citation `ezra1991semiclassical' on page 3 undefined on input li
+ne 12.
+
+
+LaTeX Warning: Citation `leopold1980semiclassical' on page 3 undefined on input
+ line 12.
+
+
+LaTeX Warning: Citation `PhysRevLett.10.516' on page 3 undefined on input line 
+14.
+
+
+LaTeX Warning: Citation `richter1990stable' on page 3 undefined on input line 1
+6.
+
+
+LaTeX Warning: Citation `richter1992novel' on page 3 undefined on input line 16
+.
+
+
+LaTeX Warning: Citation `weinacht1999controlling' on page 3 undefined on input 
+line 16.
+
+
+LaTeX Warning: Citation `chen1998observation' on page 3 undefined on input line
+ 16.
+
+
+LaTeX Warning: Citation `schrodinger1926stetige' on page 3 undefined on input l
+ine 16.
+
+
+LaTeX Warning: Citation `BUCHLEITNER2002409' on page 3 undefined on input line 
+16.
+
+
+LaTeX Warning: Citation `schlagheck1999nondispersive' on page 3 undefined on in
+put line 16.
+
+
+LaTeX Warning: Citation `thesisjavier' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Madronero' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Citation `PhysRevA.101.013414' on page 3 undefined on input line
+ 16.
+
+
+LaTeX Warning: Citation `thesisalejo' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Schlagheck2003' on page 3 undefined on input line 18.
+
+
+LaTeX Warning: Citation `schlagheck1998classical' on page 3 undefined on input 
+line 18.
+
+
+LaTeX Warning: Citation `schlagheck1998classical' on page 3 undefined on input 
+line 20.
+
+[3]) [4]
+Chapter 2.
+(chapters/chapter2.tex [5
+
+]
+
+LaTeX Warning: Citation `balslev1971spectral' on page 6 undefined on input line
+ 50.
+
+
+LaTeX Warning: Citation `ho1983method' on page 6 undefined on input line 50.
+
+
+LaTeX Warning: Citation `reinhardt1982complex' on page 6 undefined on input lin
+e 63.
+
+
+Overfull \hbox (7.2361pt too wide) in paragraph at lines 76--77
+\OT1/cmr/m/n/12 The quan-tum dy-nam-ics of the sys-tem is gov-erned by the time
+ in-de-pen-dent Schrodinger
+ []
+
+[6]
+
+LaTeX Warning: Citation `eiglsperger2009spectral' on page 7 undefined on input 
+line 81.
+
+
+LaTeX Warning: Citation `foumouo2006theory' on page 7 undefined on input line 8
+1.
+
+
+LaTeX Warning: Citation `varshalovich1988quantum' on page 7 undefined on input 
+line 97.
+
+
+LaTeX Warning: Citation `thesisjavier' on page 7 undefined on input line 103.
+
+[7] [8]
+
+LaTeX Warning: Citation `ASENS_1883_2_12__47_0' on page 9 undefined on input li
+ne 183.
+
+
+LaTeX Warning: Citation `PhysRev.138.B979' on page 9 undefined on input line 18
+3.
+
+
+LaTeX Warning: Citation `PhysRevA.58.466' on page 9 undefined on input line 203
+.
+
+
+LaTeX Warning: Citation `PhysRev.138.B979' on page 9 undefined on input line 20
+3.
+
+[9]
+
+LaTeX Warning: Reference `figure' on page 10 undefined on input line 245.
+
+
+LaTeX Warning: Citation `Lanczos:1950zz' on page 10 undefined on input line 245
+.
+
+) [10]
+Chapter 3.
+(chapters/chapter3.tex
+
+LaTeX Warning: Citation `RevModPhys.72.497' on page 11 undefined on input line 
+33.
+
+
+LaTeX Warning: Citation `PhysRevLett.65.1965' on page 11 undefined on input lin
+e 33.
+
+[11
+
+]
+
+LaTeX Warning: Citation `Schlagheck2003' on page 12 undefined on input line 37.
+
+
+
+LaTeX Warning: Citation `Schlagheck2003' on page 12 undefined on input line 67.
+
+
+
+LaTeX Warning: Citation `Madronero' on page 12 undefined on input line 67.
+
+
+LaTeX Warning: Citation `Richter_1992' on page 12 undefined on input line 67.
+
+[12] [13]) [14]
+Chapter 4.
+(chapters/chapter4.tex
+Overfull \hbox (4.2444pt too wide) in paragraph at lines 7--7
+[]\OT1/cmr/bx/n/17.28 Classical frozen planet con-fig-u-ra-tion un-der pe-
+ []
+
+) [15
+
+]
+Chapter 5.
+(chapters/chapter5.tex) [16
+
+] [17] (chapters/appendix.tex) [18
+
+] [19] (Tesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4231 strings out of 481225
+ 63611 string characters out of 2906174
+ 581410 words of memory out of 3000000
+ 19729 multiletter control sequences out of 15000+200000
+ 546398 words of font info for 75 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,11n,45p,1849b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\johnf\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Users/johnf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Users/johnf/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Users/johnf/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/johnf/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/johnf/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/johnf/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johnf/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/joh
+nf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
+ers/johnf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Users/johnf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy6.pfb><C:/Users/johnf/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb><C:/Users/johnf/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb><C:/Users/johnf/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Tesis.pdf (21 pages, 206086 bytes).
+PDF statistics:
+ 130 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

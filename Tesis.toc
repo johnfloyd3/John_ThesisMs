@@ -1,0 +1,18 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}%
+\contentsline {section}{\numberline {1.1}Introduction}{2}%
+\contentsline {section}{\numberline {1.2}Background}{2}%
+\contentsline {chapter}{\numberline {2}Theoretical Framework and numerical treatment of the problem}{5}%
+\contentsline {section}{\numberline {2.1}Hamiltonian}{5}%
+\contentsline {section}{\numberline {2.2}Helium spectrum}{6}%
+\contentsline {section}{\numberline {2.3}Complex rotation method}{6}%
+\contentsline {section}{\numberline {2.4}Expansion of the wave function}{7}%
+\contentsline {section}{\numberline {2.5}Matrix form of the Schrodinger equation}{8}%
+\contentsline {section}{\numberline {2.6}Helium atom under periodic driving and external static electric field}{9}%
+\contentsline {chapter}{\numberline {3}Unperturbed frozen planet states and non dispersive wave packets}{11}%
+\contentsline {section}{\numberline {3.1}The classical frozen planet configuration of Helium}{11}%
+\contentsline {subsection}{\numberline {3.1.1}Identification of frozen planet states}{13}%
+\contentsline {section}{\numberline {3.2}Frozen planet states in N=6 helium spectrum}{13}%
+\contentsline {chapter}{\numberline {4}Non dispersive wave packets}{15}%
+\contentsline {section}{\numberline {4.1}Classical frozen planet configuration under periodic driving}{15}%
+\contentsline {chapter}{\numberline {5}Conclusions}{16}%
+\contentsline {section}{\numberline {5.1}Section 1}{16}%

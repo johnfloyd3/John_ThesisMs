@@ -1,0 +1,245 @@
+\section{Hamiltonian}
+
+The helium atom can be considered as a three body Coulomb problem composed of two electrons and a massive nucleus. Neglecting relativistic effects and in the infinite nucleus mass approximation, the Hamiltonian in atomic units *Bulechleitner* for such a system can be described as  
+
+
+\begin{equation}
+H_{0}=\frac{\vec{P}_{1}^{2}}{2}+\frac{\vec{P}_{2}^{2}}{2}-\frac{2}{\abs{\vec{r}_{1}}}-\frac{2}{\abs{\vec{r}_{2}}}+\frac{1}{\abs{\vec{r}_{1}-\vec{r}_{2}}},
+\end{equation} \label{eq:hamiltonian}
+where $ \vec{r}_{i}=(x_{i},y_{i},z_{i}) $ and $ \vec{P}_{i}=(p_{ix},p_{iy},p_{iz}) $ are the position and momentum of particle $ i=1,2 $ respectively. 
+
+Since the Hamiltonian is time independent a solution of the form $ \Psi(1,2)=\phi(x_{1},x_{2}) \chi(s_{1},s_{2}) $ is expected, this is, the product of a coordinate function and a spin state. This wave function has to be antysimmetric because of the Pauli exclusion principle. 
+
+For two electron atoms the spin basis has a four states basis $ \ket{S, M_{s}} $, where $ S $ denotes the total and $ M_{s} $ its projection on the quantization axis. Therefore, we have  three symmetric spin $ S=1 $ states
+
+\begin{equation}
+	\ket{1,1}=\ket{\uparrow\uparrow}, \hspace{0.5cm} \ket{1,0}=\frac{1}{\sqrt{2}} \left(\ket{\uparrow\downarrow}+\ket{\downarrow\uparrow}\right), \hspace{0.5cm} \ket{1,-1}=\ket{\downarrow\downarrow},
+\end{equation}
+and one antysimmetric spin $ S=0 $ singlet state
+
+\begin{equation}
+\ket{0,0}=\frac{1}{\sqrt{2}} \left(\ket{\uparrow\downarrow}-\ket{\downarrow\uparrow}\right)
+\end{equation}
+
+In order of the total wave function to be antysimmetric under exchange, we have two alteratives, spin singlet state must have symmetric spatial wave function; spin triplet states have antysimmetric spatial wave function.
+
+\section{Helium spectrum}
+
+When the interaction betweent the two electrons is neglected, one can write $ H $ as the sum of two one-particle Hamiltonians. Then, the Schrodinger equation can be posed as
+
+\begin{equation}
+	\left[ H(1) + H(2) \right] \ket{\Psi} = (E_{n_{1}}+ E_{n_{2}}) \ket{\Psi}.
+\end{equation}
+
+Therefore, the energy spectrum by continuum states above the single ionizations thresholds and a series of Rydberg bound states with energy given by
+
+\begin{equation}
+	E_{n_{1}}+ E_{n_{2}}=-\frac{2}{n_{1}^{2}}-\frac{2}{n_{2}^{2}}.
+\end{equation}
+
+The Rydberg series labeled by the principal quantum number $ N $ converges to the single ionization threshold, $ I_{N}=-\frac{2}{N^{2}} $, and all of these series converge to the double ionization threshold (DIT) at zero energy.
+
+Once the electron electron interaction is taken into account some features in the spectrum are found. First, the energies of ionizanization thresholds remain unaffected by this term. The reason for this is the fact that when an electron gets ionized, their separation becomes significant enough to make the interaction between them negligible. Despite this, all other energies get considerable modified, and, particularly, bound states transforms into autoionizing resonance states embedded in the continua above the first ionization threshold.
+
+
+
+
+
+\section{Complex rotation method} \label{complex} 
+´
+To extract the energies and decay rates of resonance states, we use the complex coordinate rotation method \cite{balslev1971spectral,ho1983method}.The complex rotation of any operator by an angle $ \theta $ is given by the non-unitary operator
+
+\begin{equation}\label{key}
+R(\theta)= \exp \left(-\theta \frac{\vec{r}.\vec{p}+\vec{p}.\vec{r}}{2}\right).
+\end{equation}
+
+The transformations of the position and momentum operators are given by
+
+\begin{eqnarray}\label{key}
+\vec{r} \rightarrow H(\theta)\vec{r}H(-\theta)=e^{i\theta}\vec{r},\\
+\vec{p} \rightarrow H(\theta)\vec{p}H(-\theta)=e^{-i\theta}\vec{p}.
+\end{eqnarray}
+
+As a consequence, the rotated Hamiltonian operator is no longer Hermitian, therefore its eigenvalues are, in general, complex. The spectrum  of the Hamiltonian has the following properties \cite{reinhardt1982complex}:
+
+\begin{itemize}
+	\item The bound spectrum of $ H_{0} $ is invariant under the complex rotation.
+	\item The continuum states are rotated by an angle of $ -2\theta $ with the real axis, around the ionization threshold of the unrotated Hamiltonian.
+	\item Provided large enough $ \theta  $ the resonance states are ``exposed" in the lower half plane. The corresponding complex eigenvalues are $ E_{i\theta}=E_{i}-i\Gamma_{i}/2 $, where the real part corresponds to the energy of the resonance, and the imaginary part contains the decay rate $ \Gamma_{i} $, which is the inverse of the resonant lifetime.
+	
+\end{itemize}
+
+
+
+\section{Expansion of the wave function}
+
+The quantum dynamics of the system is governed by the time independent Schr\"odinger equation
+
+\begin{equation}
+H_{0}\Psi(\vec{r}_{1},\vec{r}_{2})=E\Psi(\vec{r}_{1},\vec{r}_{2}),
+\end{equation}
+where $ H_{0} $ is the unperturbed Hamiltonian. The solutions of this equation are expanded in a configuration interaction (CI) basis \cite{eiglsperger2009spectral,foumouo2006theory} for a given value of the total angular momentum L and its projection $ M $ on the Z-axis,
+
+\begin{equation}  \label{waveexpansion}
+\Psi^{L,M}(\vec{r}_{1},\vec{r}_{2})=\sum_{l_{1},l_{2}}\sum_{s}\sum_{n_{1},n_{2}}\psi_{k_{1s},k_{2s},n_{1},n_{2}}^{l_{1},l_{2},L,M,\epsilon_{12}}\beta_{n_{1},n_{2}}^{l_{1},l_{2}} {\cal A}  F_{\kappa_{1s}, \kappa_{2s},n_{1},n_{2}}^{l_{1},l_{2},L,M}(\vec{r}_{1},\vec{r}_{2}),
+\end{equation}
+with 
+\begin{equation}
+F_{\kappa_{1s}, \kappa_{2s},n_{1},n_{2}}^{l_{1},l_{2},L,M}(\vec{r}_{1},\vec{r}_{2})=\frac{S_{n_{1},l_{1}}^{k_{1s}}(r_{1})}{r_{1}}\frac{S_{n_{2},l_{2}}^{k_{2s}}(r_{2})}{r_{2}}\Lambda_{l_{1},l_{2}}^{n_{1},n_{2}}(\theta_{1},\phi_{1},\theta_{2},\phi_{2}),
+\end{equation}
+where $ \psi_{k_{1s},k_{2s},n_{1},n_{2}}^{l_{1},l_{2},L,M,\epsilon_{12}} $ are the expansion coefficients and $ \beta_{n_{1},n_{2}}^{l_{1},l_{2}}  $ controls the redundancy that might occur within the basis due to simmetrization. The symmetrization operator $ \cal{A} $ takes the form 
+
+\begin{equation}
+A=\frac{1+(-1)^{l_{1}+l_{2}-L}\epsilon_{12}P}{\sqrt{2}},	
+\end{equation}
+where  $ \epsilon_{12} $ is the two dimensional levi civita symbol, and $ P $ exchanges simultaneously $ (\lambda_{1},\kappa_{1},\mu_{1},\nu_{1}) $ to $ (\lambda_{2},\kappa_{2},\mu_{2},\nu_{2}) $ therefore this operator allows to transform onto either singlet or tripet states. 
+
+The angular part of the wave function is an expansion in terms of bipolar spherical harmonics \cite{varshalovich1988quantum}
+
+\begin{equation}
+\Lambda_{l_{1},l_{2}}^{n_{1},n_{2}}(\theta_{1},\phi_{1},\theta_{2},\phi_{2})=\sum_{m_{1},m_{2}} \bra{l_{1}m_{1}l_{2}m_{2}} \ket{LM} Y_{l_{1},m_{1}}(\theta_{1},\phi_{1})Y_{l_{2},m_{2}}(\theta_{2},\phi_{2})
+\end{equation}
+
+The radial part of the wave function $ S_{n,l}^{k} $ are the one-electron Coulomb-Sturmian functions which are the solution of the Sturm-Liouville eigenvalue problem \cite{thesisjavier}. The solutions are given by
+
+\begin{equation}\label{key}
+S_{n,l}^{(k)}(r)=N_{n,l}^{(k)}r^{l+1} e^{-\kappa r}L_{n-l-1}^{(2l+1)}(2\kappa r),
+\end{equation}
+where $ \kappa $ is a dilation parameter and $ L_{n-l-1}^{(2l+1)}(2\kappa r) $ are Laguerre polynomials. 
+
+The reason for taking this particular basis is that the dilation parameter $ \kappa $ can be adjusted in order to improve convergence in a determined region of the spectrum, large values of this parameter imply Sturm-Coulomb functions with short extent in space, and small $ \kappa $ corresponds to large extent in space, respectively. The frozen planet states, which is the scope of reaserch as will be indicated, are highly asymmetric excited states, in this way the configuration is better described using large dilation parameter for the inner electron and a small parameter for the outer one. Using this approach allows us to reduce the basis size compared to other CI approaches because every electron must be described using a different set of dilaton parameter and Coulomb Sturmian functions, so it is possible to include just the fundamental basis elements.
+ 
+\section{Matrix form of the Schrodinger equation}
+
+The Hamiltonian in () can be split in order to write the Schrodinger equation in the form 
+
+\begin{equation}
+	(T+V+U)\ket{\Psi}=E\ket{\Psi},
+\end{equation}
+where $ T $ is the kinetic energy, $ T $ is the nucleus-electron interaction and $ U $ the electron-electron interaction. These quantities are
+
+\begin{equation}
+	T=\frac{\vec{P}_{1}^{2}}{2}+\frac{\vec{P}_{2}^{2}}{2}, \hspace{0.5cm} V=-\frac{2}{\abs{\vec{r}_{1}}}-\frac{2}{\abs{\vec{r}_{2}}}, \hspace{0.5cm} U=\frac{1}{\abs{\vec{r}_{1}-\vec{r}_{2}}}.
+\end{equation}
+
+To get the matrix elements of $ H $ we take the inner product between each side of () and the wave function (). This is equivalent to multiplicating from the left with $ \beta_{n_{1}^{\prime},n_{2}^{\prime}}^{l_{1}^{\prime},l_{2}^{\prime}} {\cal A^{\prime}}  F_{\kappa_{1s}^{\prime}, \kappa_{2s}^{\prime},n_{1}^{\prime},n_{2}^{\prime}}^{l_{1}^{\prime},l_{2}^{\prime},L^{\prime},M^{\prime}}(\vec{r}_{1},\vec{r}_{2})  $ and then integrating over the whole space. This results in
+
+\begin{equation}
+	\sum_{l_{1},l_{2}}\sum_{s}\sum_{n_{1},n_{2}} \beta_{n_{1},n_{2}}^{l_{1},l_{2}} \beta_{n_{1}^{\prime},n_{2}^{\prime}}^{l_{1}^{\prime},l_{2}^{\prime}} \psi_{k_{1s},k_{2s},n_{1},n_{2}}^{l_{1},l_{2},L,M} (T+V+U)_{k_{1s},k_{2s},n_{1},n_{2},\kappa_{1s}^{\prime}, \kappa_{2s}^{\prime},n_{1}^{\prime},n_{2}^{\prime}}^{l_{1},l_{2},L,M,l_{1}^{\prime},l_{2}^{\prime},L^{\prime},M^{\prime}}  
+\end{equation}
+\begin{equation}
+	=\sum_{l_{1},l_{2}}\sum_{s}\sum_{n_{1},n_{2}} ES_{k_{1s},k_{2s},n_{1},n_{2},\kappa_{1s}^{\prime}, \kappa_{2s}^{\prime},n_{1}^{\prime},n_{2}^{\prime}}^{l_{1},l_{2},L,M,l_{1}^{\prime},l_{2}^{\prime},L^{\prime},M^{\prime}}
+\end{equation}
+where the matrix elements of the Hamiltonian constituyents are
+
+\begin{equation}		
+	T_{k_{1s},k_{2s},n_{1},n_{2},\kappa_{1s}^{\prime}, \kappa_{2s}^{\prime},n_{1}^{\prime},n_{2}^{\prime}}^{l_{1},l_{2},L,M,l_{1}^{\prime},l_{2}^{\prime},L^{\prime},M^{\prime}}=\int d\vec{r_{1}}d\vec{r_{2}} {\cal A}^{\prime} F_{\kappa_{1s}^{\prime}, \kappa_{2s}^{\prime},n_{1}^{\prime},n_{2}^{\prime}}^{l_{1}^{\prime},l_{2}^{\prime},L^{\prime},M^{\prime}}(\vec{r}_{1},\vec{r}_{2}) T {\cal A}  F_{\kappa_{1s}, \kappa_{2s},n_{1},n_{2}}^{l_{1},l_{2},L,M}(\vec{r}_{1},\vec{r}_{2}),
+\end{equation}
+
+\begin{equation}		
+V_{k_{1s},k_{2s},n_{1},n_{2},\kappa_{1s}^{\prime}, \kappa_{2s}^{\prime},n_{1}^{\prime},n_{2}^{\prime}}^{l_{1},l_{2},L,M,l_{1}^{\prime},l_{2}^{\prime},L^{\prime},M^{\prime}}=\int d\vec{r_{1}}d\vec{r_{2}} {\cal A}^{\prime} F_{\kappa_{1s}^{\prime}, \kappa_{2s}^{\prime},n_{1}^{\prime},n_{2}^{\prime}}^{l_{1}^{\prime},l_{2}^{\prime},L^{\prime},M^{\prime}}(\vec{r}_{1},\vec{r}_{2}) V {\cal A}  F_{\kappa_{1s}, \kappa_{2s},n_{1},n_{2}}^{l_{1},l_{2},L,M}(\vec{r}_{1},\vec{r}_{2}),
+\end{equation}
+
+\begin{equation}		
+U_{k_{1s},k_{2s},n_{1},n_{2},\kappa_{1s}^{\prime}, \kappa_{2s}^{\prime},n_{1}^{\prime},n_{2}^{\prime}}^{l_{1},l_{2},L,M,l_{1}^{\prime},l_{2}^{\prime},L^{\prime},M^{\prime}}=\int d\vec{r_{1}}d\vec{r_{2}} {\cal A}^{\prime} F_{\kappa_{1s}^{\prime}, \kappa_{2s}^{\prime},n_{1}^{\prime},n_{2}^{\prime}}^{l_{1}^{\prime},l_{2}^{\prime},L^{\prime},M^{\prime}}(\vec{r}_{1},\vec{r}_{2}) U {\cal A}  F_{\kappa_{1s}, \kappa_{2s},n_{1},n_{2}}^{l_{1},l_{2},L,M}(\vec{r}_{1},\vec{r}_{2}),
+\end{equation}
+and
+\begin{equation}		
+S_{k_{1s},k_{2s},n_{1},n_{2},\kappa_{1s}^{\prime}, \kappa_{2s}^{\prime},n_{1}^{\prime},n_{2}^{\prime}}^{l_{1},l_{2},L,M,l_{1}^{\prime},l_{2}^{\prime},L^{\prime},M^{\prime}}=\int d\vec{r_{1}}d\vec{r_{2}} {\cal A}^{\prime} F_{\kappa_{1s}^{\prime}, \kappa_{2s}^{\prime},n_{1}^{\prime},n_{2}^{\prime}}^{l_{1}^{\prime},l_{2}^{\prime},L^{\prime},M^{\prime}}(\vec{r}_{1},\vec{r}_{2}) S {\cal A}  F_{\kappa_{1s}, \kappa_{2s},n_{1},n_{2}}^{l_{1},l_{2},L,M}(\vec{r}_{1},\vec{r}_{2}).
+\end{equation}
+
+Thus, the Schrodinger equation () is formulated in its equivalent matrix form yields the generalized eigenvalue problem
+
+\begin{equation}
+	\textbf{H} \textbf{1}=E\textbf{S} \textbf{SI}, \hspace{0.5cm} \textbf{H}=\textbf{T}+\textbf{V}+\textbf{U},
+\end{equation}
+
+where $ Si $ is the vector representation of the wave function and $ \textbf{H} $ is the matrix representation of the Hamiltonian.
+
+Under complex rotation the Hamiltonian transforms as
+
+\begin{equation}
+\textbf{H}_{\theta}=\textbf{T}e^{-2i\theta}+\textbf{V}e^{-i\theta}+\textbf{U}e^{-i\theta},
+\end{equation}
+
+and the generalized eigenvalue problem as 
+
+\begin{equation}
+\textbf{H}_{\theta} \textbf{1}_{\theta}=E_{\theta}\textbf{S} \textbf{1}_{\theta}, 
+\end{equation}
+where, again, $ \textbf{H}_{\theta} $ and $  \textbf{1}_{\theta} $ are the matrix and vector representations, respectively, of the Hamiltonian and the wave function in the complex rotated frame.
+
+Despite integrals () can be computed analitically, these are evaluated using the Gauss-Laguerre integration method, since using Sturmian functions with several dilation parameters make the analitical calculation more difficult.
+
+\section{Helium atom under periodic driving and external static electric field}
+
+The Hamiltonian of the electromagnetically driven helium atom  reads 
+\begin{equation}
+H=H_{0}+(F \cos \omega t +F_{\textrm{st}})(\textbf{e}_{x}).(\vec{r}_{1}+\vec{r}_{2}), \label{eq:Hamilcomp}
+\end{equation}
+where $ F \cos\omega t $ is a linearly polarized driving at frequency $ \omega $ and amplitude $ F $ ($ \textbf{e}_{x} $ represents the unit vector along the x-axis). Besides there is an additional static field strength $ F_{\rm st} $.
+
+
+A convenient way to handle a Hamiltonian with temporal periodicity $ T=2\pi /\omega $ is through Floquet theory \cite{ASENS_1883_2_12__47_0,PhysRev.138.B979}. In this formalism any solution of the Schrodinger equation can be expanded in a series of time periodic wave functions $ \ket{\phi_{\epsilon_{i}}(t)} $,
+
+\begin{equation}
+\ket{\psi (t)}=\sum_{i} c_{i} e^{-\rm i \epsilon_{i}t}\ket{\phi_{\epsilon_{i}}(t)},
+\end{equation}
+with $ \ket{\phi_{\epsilon_{i}}(t+T)}=\ket{\phi_{\epsilon_{i}}(t)} $. Here, the $ \epsilon_{i} $ and $ \ket{\phi_{\epsilon_{i}}(t)} $ are called quasienergy and floquet states, respectively. They satisfy the floquet eigenvalue equation 
+
+\begin{equation}
+\left(H-\rm i \dfrac{\partial}{\partial t}\right)\ket{\phi_{\epsilon_{i}}(t)}=\epsilon_{i}\ket{\phi_{\epsilon_{i}}(t)}. \label{eq:floquetse}
+\end{equation} 				
+Due to the time periodicity, Floquet states can be expanded in Fourier series
+
+\begin{equation}
+\ket{\phi_{\epsilon_{i}}(t)}=\sum_{k=-\infty}^{\infty} e^{-\rm i  k\omega t}\ket{\phi_{\epsilon_{i}}^{k}}. \label{expansion}
+\end{equation}
+When substituted this expansion into the eigenvalue equation (\ref{eq:floquetse}) with $ H $ as in (\ref{eq:Hamilcomp}), one gets the eigenvalue problem 
+
+\begin{equation}
+(H_{0}+F_{\rm st}(x_{1}+x_{2})-k\omega)\ket{\phi_{\epsilon_{i}}^{k}}+\frac{F}{2}(x_{1}+x_{2})\left(\ket{\phi_{\epsilon_{i}}^{k+1}}+\ket{\phi_{\epsilon_{i}}^{k-1}}\right)=\epsilon_{i}\ket{\phi_{\epsilon_{i}}^{k}}\label{eq:1},
+\end{equation}
+in the position Gauge. Time dependence has been eliminated at the cost of adding a new quantum number $ k $. For a classical field in the limit of large number of photons there is a one-to-one correspondence between the quasienergy spectrum of the Floquet eigenvalue equation and the energy spectrum on an atom dressed by a quantum radiation field \cite{PhysRevA.58.466,PhysRev.138.B979}. In the semiclassical limit the number $ k $ counts the number of photons exchanged between the atom and the field. 
+
+Equation (\ref{eq:1}) can also be written in matrix form given by
+
+\begin{equation}
+\textbf{A}\phi_{i}=\epsilon_{i}\phi_{i},\hspace{1cm}		\textbf{A}=\textbf{H}_{0}-k\omega \mathbb{I}+\textbf{F{\rm st}}+\textbf{F}, \label{eq: matrixfloquet} 
+\end{equation}
+where $ \phi_{i} $ is the column vector representing $ \ket{\phi_{\epsilon_{i}}^{k}} $ and $ \textbf{F{\rm st}} $ and \textbf{F} are the matrix representations of the dipole parts associated to the static and periodic fields, respectively (\ref{eq:1}).
+
+
+The matrix $ \textbf{A} $ is partitioned in blocks labeled by its $ k $ components. The matrix $ H_{0} $ has a block diagonal structure, and since we are working in the Sturmian basis, this matrix is very dense.  The matrices $ \textbf{F} $ and $ \textbf{F}_{st} $ are symmetric in the gauge we have chosen and they have a block structure defined by the selection rules $ \Delta k=\pm 1 $ and $ \Delta L=\pm 1 $.
+
+
+For the numerical implementation the basis has to be truncated. This is done by
+
+
+
+\begin{equation}
+k_{\rm min}\leq k \leq k_{\rm max},\hspace{1cm}
+L=0,1,...,L_{\rm max}.
+\end{equation}
+
+Using the basis expansion (6) for the full Floquet system leads to huge matrices in the eigenvalue problem (16). Even for a small number of Floquet blocks and angular momenta the matrix representation will require storage space of hundres of Gb. We, therefore, propose to represent the eigenvalue problem of the full system in the atomic basis, that is, in the basis of eigenstates of $ \textbf{H}_{0} $,
+
+\begin{equation}\label{eigenvalueproblem}
+\left\lbrace\ket{\phi_{i}^{L,k}} \right\rbrace, \hspace{1cm} \ket{\phi_{i}^{L,k}}=\ket{\phi_{i}^{L}} \otimes \ket{k}.
+\end{equation}
+
+The tensor product is motivated by the identification of the floquet quauntum number $ k $ with the classical number of photon exchanged by the atom and the field. The states $ \ket{\phi_{i}^{L}} $ are the solutions of the time independent Schr\"odinger equation.
+
+
+
+\begin{equation}\label{key}
+H_{0}\ket{\phi_{i}^{L}}=\epsilon_{i}^{L}\ket{\phi_{i}^{L}}.
+\end{equation}
+
+
+Using this basis, equation (\ref{eq: matrixfloquet}) transforms into the matrix equation
+
+\begin{equation}\label{matrix}
+\tilde{\textbf{A}}\tilde{\phi}_{i}=\epsilon_{i}\tilde{\phi}_{i},\hspace{1cm} \tilde{\textbf{A}}=\textbf{h}_{0}-k\omega \mathbb{I}+\textbf{F{\rm st}}+\textbf{F},
+\end{equation}
+where $ \tilde{\phi}_{i} $ is the vector representation of $ \ket{\phi_{i}^{L,k}} $, and $ \textbf{h}_{0} $ is the diagonal matrix containing the eigenvalues of $ \textbf{H}_{0} $. The great advantage here is that the matrix form of $ \tilde{\textbf{A}} $  is much sparser than $ \textbf{A} $, which is mandatory for a suitable numerical implementation as can be see in Figure \ref{figure}. The diagonalization of the matrix equation is performed using Lanczos algorithm \cite{Lanczos:1950zz}.

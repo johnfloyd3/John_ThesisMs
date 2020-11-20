@@ -1,0 +1,57 @@
+\documentclass[12pt,twoside]{report}	
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\usepackage{lipsum}
+\usepackage{amsmath,amssymb,latexsym, cancel}
+\usepackage{physics}
+% Title Page
+\title{
+{\includegraphics{logo.png}}
+
+
+
+}
+\author{John Fitzgerald León Ocampo}
+
+
+\begin{document}
+\maketitle
+
+
+\tableofcontents
+
+\begin{abstract}
+\end{abstract}
+
+
+\chapter{Introduction}
+\input{chapters/chapter1.tex}
+
+\chapter{Theoretical Framework and numerical treatment of the problem}
+\input{chapters/chapter2.tex}
+
+\chapter{Unperturbed frozen planet states and non dispersive wave packets}
+\input{chapters/chapter3.tex}
+
+\chapter{Non dispersive wave packets}
+\input{chapters/chapter4.tex}
+
+\chapter{Conclusions}
+\input{chapters/chapter5.tex}
+
+
+\appendix
+\chapter*{Appendices}
+\input{chapters/appendix.tex}
+
+
+
+
+
+
+\end{document}          
